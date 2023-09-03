@@ -6,7 +6,7 @@ This guide will help you set up and use your FTP server program. Follow these st
 
 Before you begin, make sure you have the following:
 
-1. Python installed on your system.
+1. Python 3 installed on your system.
 2. The `pyftpdlib` library installed. You can install it using `pip`:
 
     ```
@@ -96,7 +96,7 @@ To add, modify, or remove users, simply edit the `[USERS]` section of the `confi
 
 That's it! You've successfully set up and configured your FTP server. You can now transfer files to and from your server using an FTP client.
 
-# Creating a Systemd Service for Your FTP Server (Linux Only)
+# Systemd Service for Your FTP Server (Linux Only)
 
 ## Creating the Service File
 
